@@ -5,6 +5,7 @@ Official [Agent Skills](https://agentskills.io) from Jaspers, for AI coding agen
 | Skill | For |
 | --- | --- |
 | [jaspers-screener](skills/jaspers-screener/SKILL.md) | Screening US public companies and reading their SEC filings against criteria through the Jaspers Screener MCP server (`https://s.jsprai.com/mcp`). |
+| [jaspers-research](skills/jaspers-research/SKILL.md) | Searching and reading one company's SEC filings, the filing database, and verified citations through the Jaspers Research MCP server (`https://analyst-api.jsprai.com/mcp/open`). |
 | [jaspers-terminal-plugin](skills/jaspers-terminal-plugin/SKILL.md) | Writing, testing, and releasing a Jaspers Terminal plugin with `@jaspers-ai/sdk`. |
 | [jaspers-terminal-skill](skills/jaspers-terminal-skill/SKILL.md) | Writing a skill for Jaspers Terminal. |
 
