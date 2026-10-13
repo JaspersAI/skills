@@ -19,7 +19,7 @@ Not for: trade execution, companies outside the US SEC universe, tick-level data
 - Endpoint: `https://s.jsprai.com/mcp`, MCP Streamable HTTP.
 - Auth: OAuth 2.0 bearer token with scope `mcp`. An unauthenticated request answers `401` with `WWW-Authenticate: Bearer ... resource_metadata="https://s.jsprai.com/.well-known/oauth-protected-resource/mcp"`.
 - The protected resource metadata names the authorization server `https://account.jsprai.com`. Its metadata is at `https://account.jsprai.com/.well-known/oauth-authorization-server`: authorization code grant with PKCE `S256`, refresh tokens, public clients, dynamic client registration at `/oauth/register`, and client ID metadata documents (`client_id_metadata_document_supported: true`).
-- Send `Authorization: Bearer <access_token>` on every request. A Jaspers account is created on first sign-in. Use is metered; without an entitlement every tool is listed but answers `NEEDS_SUBSCRIPTION`. Point the user to https://account.jsprai.com/ in that case.
+- Send `Authorization: Bearer <access_token>` on every request. A Jaspers account is created on first sign-in. Use is metered; without an entitlement every tool is listed but answers `NEEDS_SUBSCRIPTION`. Point the user to https://account.jsprai.com/auth/account in that case.
 
 ## Tools
 
