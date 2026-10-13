@@ -18,7 +18,7 @@ Not for: 13F institutional holdings (those are on the Jaspers Screener MCP), pri
 
 - Endpoint: `https://analyst-api.jsprai.com/mcp/open`, MCP Streamable HTTP.
 - Auth: a Jaspers Account access token as `Authorization: Bearer <token>`, scope `mcp`, issued by `https://account.jsprai.com` for the resource `https://analyst-api.jsprai.com/mcp/open`. Protected resource metadata: `https://analyst-api.jsprai.com/.well-known/oauth-protected-resource/mcp/open`. Authorization server metadata: `https://account.jsprai.com/.well-known/oauth-authorization-server` (authorization code with PKCE `S256`, refresh tokens, public clients, dynamic client registration, client ID metadata documents).
-- An invalid or expired JWT bearer answers `401` with a `WWW-Authenticate` challenge naming that metadata. A request with no bearer answers `404` by design, so begin from the metadata, not from a bare probe. Inside Jaspers Terminal, the Research plugin connects on the user's sign-in with nothing to paste.
+- A request without a valid token answers `401` with a `WWW-Authenticate: Bearer` challenge naming that metadata, so a client that follows RFC 9728 discovers the sign-in on its own. Inside Jaspers Terminal, the Research plugin connects on the user's sign-in with nothing to paste.
 - Research is a subscription on the account, with a preview period on new accounts. Without it every tool is listed and every call answers that Research MCP needs a subscription; point the user to https://account.jsprai.com/auth/account.
 
 ## Tools
