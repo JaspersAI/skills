@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jaspers",
+  "version": "1.1.0",
+  "description": "Jaspers for coding agents: skills for the Screener and Research MCP servers and for building on Jaspers Terminal, plus the two MCP servers themselves.",
+  "author": { "name": "Jaspers", "email": "hub@jsprai.com", "url": "https://jsprai.com/" },
+  "homepage": "https://jsprai.com/agents.md",
+  "repository": "https://github.com/JaspersAI/skills",
+  "license": "MIT",
+  "keywords": ["finance", "sec-filings", "stock-screener", "mcp", "jaspers-terminal", "agent-skills"]
+}

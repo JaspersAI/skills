@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "jaspers-screener": {
+      "type": "streamable-http",
+      "url": "https://s.jsprai.com/mcp"
+    },
+    "jaspers-research": {
+      "type": "streamable-http",
+      "url": "https://analyst-api.jsprai.com/mcp/open"
+    }
+  }
+}

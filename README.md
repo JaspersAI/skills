@@ -17,6 +17,10 @@ npx skills add JaspersAI/skills
 
 The same skills are published with SHA-256 digests at https://jsprai.com/.well-known/agent-skills/index.json.
 
+## As an Agent Plugin
+
+`plugin.json` and `mcp.json` make this repository an [Agent Plugin](https://agent-plugins.org/): a client that reads the manifest gets the skills under `skills/` and the two Jaspers MCP servers, `https://s.jsprai.com/mcp` and `https://analyst-api.jsprai.com/mcp/open` (OAuth 2.0 sign-in with a Jaspers account; see https://jsprai.com/auth.md). Contributors and coding agents: read [AGENTS.md](AGENTS.md).
+
 ## About Jaspers
 
 Jaspers builds [Jaspers Terminal](https://github.com/JaspersAI/terminal), the open-source agentic terminal for public markets, and runs hosted SEC data services that agents reach over MCP. Agent instructions: https://jsprai.com/agents.md.
