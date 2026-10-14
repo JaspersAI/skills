@@ -27,4 +27,4 @@ Jaspers builds [Jaspers Terminal](https://github.com/JaspersAI/terminal), the op
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) for the skills in this repository. Jaspers Terminal itself is open source under the [Business Source License 1.1](https://github.com/JaspersAI/terminal/blob/main/LICENSE); its SDK, `@jaspers-ai/sdk`, is MIT.
